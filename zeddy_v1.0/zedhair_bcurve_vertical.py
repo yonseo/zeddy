@@ -1,10 +1,6 @@
 #python
 import lx
 
-#zedhair bezier curve
-
-
-#lx.eval('item.addDeformer deform.bezier');
 
 #create the hair mesh cube
 lx.eval('@zedhair_cube_vertical.py');
@@ -17,9 +13,7 @@ lx.eval('item.addDeformer genInfluence true');
     # dialog options preset
 lx.eval('deform.bezier.create false true 5 y 8.0');
 
-    #query the genInfluence id in a list
-    #genID = lx.eval('query sceneservice genInfluence.id ?');
-    #genID + bezierNode
+
 
     
 #-------------------------------------------------------------------
@@ -88,10 +82,6 @@ lx.eval('item.channel useScale true');
 lx.eval('item.channel useTwist true');
 lx.eval('tool.noChange');
 lx.eval('tool.doApply');
-
-
-
-
 
 
 

@@ -143,12 +143,7 @@ for num, item in enumerate(groupNumList):
     xName = "Group Name_{}: {}".format(num, groupID);
     gName = groupID;
 
-    
-    #use the names in the item List to group the bezierNodes, connect them to their respective influencer and resize
-    #lx.out(xName);
-    #lx.out(gName);
-    
-    
+
     #if group id is NOT equal to zedhair_unselectable execute code
     if 'zedhair_unselectable' != gName:
         lx.out('skip me!');

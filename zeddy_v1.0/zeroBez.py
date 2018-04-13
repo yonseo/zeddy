@@ -11,7 +11,7 @@ for i in list:
 	
 	bez = lx.eval('query sceneservice bezierNode.id ? %s' %count);
 		
-	#lx.out('Node is: %s and index is: %s' %(bez, count));
+	
 
 	#get the last bezierNode in the list
 	def store():
@@ -99,5 +99,4 @@ lx.eval('transform.zero translation');
 lx.eval('select.drop item');
 
 
-#create locators and parent them to bezierNodes
-#lx.eval('@createloc.py');
+

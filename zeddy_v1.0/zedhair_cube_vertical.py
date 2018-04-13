@@ -1,12 +1,7 @@
 #python
 import lx
-
-#Create or import a flat sphere 
-#lx.eval('script.implicit "Unit Sphere Item"');
-
-
-
 import modo
+
 scene = modo.Scene()
 lx.eval('layer.new')
 
@@ -42,10 +37,6 @@ lx.eval('tool.set prim.cube off 0');
 
 lx.eval('poly.convert face subpatch true');
 
-#lx.eval('select.edgeLoop base false m3d middle');
-#lx.eval('tool.set TransformRotate on');
-#lx.eval('tool.setAttr xfrm.transform RX 16.0'); 
-#lx.eval('#lx.eval('tool.setAttr xfrm.transform SZ 0.455');
 #drop tool 
 lx.eval('tool.clearTask snap');
 lx.eval('select.drop item');
