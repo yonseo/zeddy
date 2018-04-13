@@ -5,7 +5,7 @@ Currently a work in progress. There are better workflows for creating polygonal 
 
 ![alt text](https://raw.githubusercontent.com/yonseo/zeddy/master/zeddy_v1.0/screenshot.jpg)
 Example of fur material used with zeddy.
-![alt text]https://raw.githubusercontent.com/yonseo/zeddy/master/zeddy_v1.0/screenshot2.jpg)
+![alt text](https://raw.githubusercontent.com/yonseo/zeddy/master/zeddy_v1.0/screenshot2.jpg)
 
 To use this script execute: @zedhair_bcurve_vertical.py
 
